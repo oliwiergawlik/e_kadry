@@ -1,0 +1,17 @@
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+$base-font-size: 16px;
+
+$font-path: '../fonts/';
+$fonts: ('Roboto Bold': 'roboto-bold-webfont', 'Roboto Thin': 'roboto-thin-webfont');
+
+html, body {
+  font-size: $base-font-size;
+}
