@@ -1,0 +1,25 @@
+@import '../../styles/helpers';
+
+.lead {
+  width: 100%;
+  max-width: toRem(1200px);
+  padding: 0 toRem(20px);
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.6;
+  font-weight: 400;
+
+
+  &__text {
+    font-size: toRem(13.28px);
+    margin: 0;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: toRem(24px);
+  }
+}
