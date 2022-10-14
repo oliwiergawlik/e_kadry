@@ -1,9 +1,12 @@
 import {Route, Routes} from "react-router-dom";
-import Home from "./pages/Home";
+
 import RequireAuth from "./components/auth/RequireAuth";
 import NotFound from "./components/httpStatusCodes/NotFound";
 import Login from "./components/auth/Login";
+import Home from "./pages/Home";
 import Page from "./pages/Page";
+
+import "./styles/main.scss"
 
 function App() {
     return (
