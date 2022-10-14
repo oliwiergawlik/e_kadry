@@ -1,0 +1,28 @@
+@import '../../styles/helpers';
+
+.btn {
+
+  &__primary {
+    background-image: linear-gradient(90deg, rgb(32, 119, 144), rgb(106, 208, 211));
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: toRem(14px);
+    box-shadow: 0 0 toRem(5px) rgb(175, 175, 175);
+    border: toRem(3px) solid rgb(255, 255, 255);;
+    border-radius: toRem(10px);
+    display: inline-block;
+    padding-inline: toRem(40px);
+    min-height: toRem(36px);
+    letter-spacing: toRem(1.25px);
+  }
+
+  &__outline {
+
+  }
+
+  &__roudned {
+
+  }
+}
