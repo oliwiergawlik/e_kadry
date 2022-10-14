@@ -1,0 +1,14 @@
+@import 'helpers';
+
+.box {
+  width: 100%;
+  max-width: toRem(1200px);
+  padding-inline: toRem(20px);
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
