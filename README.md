@@ -1,9 +1,7 @@
 ---
 # E Kadry
 
-Projekt strony internetowej bazowany na istniejącej stronie.
-Trening umiejętności HTML i SCSS.
-
+Web app project, based on existing website. HTML & CSS training.
 
 - HTML
 - Sass
